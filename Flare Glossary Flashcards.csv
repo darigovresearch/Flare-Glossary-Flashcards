@@ -1,171 +1,171 @@
 "Attestation"|"
-A data proof provided to the [State Connector](#state_connector) by a decentralized set of Attestation Providers that confirms the validity or otherwise of any request.
-"|#attestation
+A data proof provided to the <a href=""https://docs.flare.network/tech/glossary/#state_connector"">State Connector</a> by a decentralized set of Attestation Providers that confirms the validity or otherwise of any request.
+"|https://docs.flare.network/tech/glossary/#attestation
 "Autoclaiming"|"
-Automatic claiming enables users to appoint an [executor](#executor) to claim rewards on their behalf. [Read more...](./automatic-claiming.md)
-"|#autoclaiming
+Automatic claiming enables users to appoint an <a href=""https://docs.flare.network/tech/glossary/#executor"">executor</a> to claim rewards on their behalf. <a href=""https://docs.flare.network/tech/automatic-claiming.md"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#autoclaiming
 "Avalanche"|"
-An open-source blockchain using the Snow family of consensus protocols and [Proof of Stake](#proof_of_stake) for [Sybil resistance](#sybil_resistance). It is advertised as the fastest smart contract platform. [Read more...](https://docs.avax.network/)
-"|#avalanche
+An open-source blockchain using the Snow family of consensus protocols and <a href=""https://docs.flare.network/tech/glossary/#proof_of_stake"">Proof of Stake</a> for <a href=""https://docs.flare.network/tech/glossary/#sybil_resistance"">Sybil resistance</a>. It is advertised as the fastest smart contract platform. <a href=""https://docs.avax.network/"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#avalanche
 "Block"|"
-For performance reasons, [blockchains](#blockchain) do not process transactions one by one. Instead, transactions are grouped together in blocks which are then validated by the [consensus](#consensus) algorithm.
-"|#block
+For performance reasons, <a href=""https://docs.flare.network/tech/glossary/#blockchain"">blockchains</a> do not process transactions one by one. Instead, transactions are grouped together in blocks which are then validated by the <a href=""https://docs.flare.network/tech/glossary/#consensus"">consensus</a> algorithm.
+"|https://docs.flare.network/tech/glossary/#block
 "Block Explorer"|"
-A tool that enables its users to analyze transactions and interact with addresses on blockchains. [Read more...](../user/block-explorers/index.md)
-"|#block_explorer
+A tool that enables its users to analyze transactions and interact with addresses on blockchains. <a href=""https://docs.flare.network/user/block-explorers/"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#block_explorer
 "Blockchain"|"
-Digital [ledger](#ledger) storing data and transactions on a distributed network of computers to make it more robust. Cryptography protects against information tampering, and a [consensus](#consensus) algorithm ensures that the majority of the network agrees on the stored data even if some of its nodes act maliciously.
-"|#blockchain
+Digital <a href=""https://docs.flare.network/tech/glossary/#ledger"">ledger</a> storing data and transactions on a distributed network of computers to make it more robust. Cryptography protects against information tampering, and a <a href=""https://docs.flare.network/tech/glossary/#consensus"">consensus</a> algorithm ensures that the majority of the network agrees on the stored data even if some of its nodes act maliciously.
+"|https://docs.flare.network/tech/glossary/#blockchain
 "Bootstrapping Node"|"
-An observation node associated with a [validator node](#validator) and acting as its bastion: the bootstrapping node exposes a minimum RPC interface, so the validator does not have to. The nodeID and nodeIP returned by the bootstrapping node's RPC allow an external node to connect and peer with the core network of validators. The bootstrapping node also [gossips](https://en.wikipedia.org/wiki/Gossip_protocol) the core network's validators nodeIDs and nodeIPs to the external node to peer to. The main purpose of a bootstrapping node is to allow new nodes to connect to the network (hence the name ""bootstrapping"") while reducing its associated validator node attack surface. [Flare offers some public bootstrapping nodes](../dev/reference/network-config.md#flare-networks).
-"|#bootstrapping_node
+An observation node associated with a <a href=""https://docs.flare.network/tech/glossary/#validator"">validator node</a> and acting as its bastion: the bootstrapping node exposes a minimum RPC interface, so the validator does not have to. The nodeID and nodeIP returned by the bootstrapping node's RPC allow an external node to connect and peer with the core network of validators. The bootstrapping node also <a href=""https://en.wikipedia.org/wiki/Gossip_protocol"">gossips</a> the core network's validators nodeIDs and nodeIPs to the external node to peer to. The main purpose of a bootstrapping node is to allow new nodes to connect to the network (hence the name ""bootstrapping"") while reducing its associated validator node attack surface. <a href=""https://docs.flare.network/dev/reference/network-config/#flare-networks"">Flare offers some public bootstrapping nodes</a>.
+"|https://docs.flare.network/tech/glossary/#bootstrapping_node
 "Byzantine Fault Tolerance"|"
 Property of a distributed system that is capable of continuous operation even when some of its participants are unreliable. Participants acting against the interest of the whole system, by accident or on purpose, are said to have “gone Byzantine”.
-"|#byzantine_fault_tolerance
+"|https://docs.flare.network/tech/glossary/#byzantine_fault_tolerance
 "Canary Network"|"
-A network used for testing features under “real fire” conditions, before deploying them on the [main network](#main_network). All users of the canary network are real users, but they are aware of the experimental nature of the platform. The name comes from the time when actual miners used actual canaries to detect the presence of poisonous gas in the mines. Flare's canary network is called [Songbird](#songbird).
-"|#canary_network
+A network used for testing features under “real fire” conditions, before deploying them on the <a href=""https://docs.flare.network/tech/glossary/#main_network"">main network</a>. All users of the canary network are real users, but they are aware of the experimental nature of the platform. The name comes from the time when actual miners used actual canaries to detect the presence of poisonous gas in the mines. Flare's canary network is called <a href=""https://docs.flare.network/tech/glossary/#songbird"">Songbird</a>.
+"|https://docs.flare.network/tech/glossary/#canary_network
 "Consensus"|"
-Algorithm that makes nodes on a blockchain’s network agree on the validity of a given transaction, even if some of the nodes provide invalid transactions or try to disrupt the network ([Byzantine Fault Tolerance](#byzantine_fault_tolerance)).
-"|#consensus
+Algorithm that makes nodes on a blockchain’s network agree on the validity of a given transaction, even if some of the nodes provide invalid transactions or try to disrupt the network (<a href=""https://docs.flare.network/tech/glossary/#byzantine_fault_tolerance"">Byzantine Fault Tolerance</a>).
+"|https://docs.flare.network/tech/glossary/#consensus
 "Coston"|"
-The name given to both of Flare's public [test networks](#test_network) (Coston and Coston2), in remembrance and celebration of a great inventor, [Martha J. Coston](https://en.wikipedia.org/wiki/Martha_Coston) (1826-1904).
-"|#coston
+The name given to both of Flare's public <a href=""https://docs.flare.network/tech/glossary/#test_network"">test networks</a> (Coston and Coston2), in remembrance and celebration of a great inventor, <a href=""https://en.wikipedia.org/wiki/Martha_Coston"">Martha J. Coston</a> (1826-1904).
+"|https://docs.flare.network/tech/glossary/#coston
 "Cross-chain (or inter-ecosystem) interoperability"|"
 Communication between two or more disparate blockchain ecosystems that are technologically incompatible due to the lack of shared systems, protocols or code (e.g. Ethereum and Solana).
-"|#cross_chain
+"|https://docs.flare.network/tech/glossary/#cross_chain
 "DAO"|"
 A Decentralized Autonomous Organization is an entity with no central authority. Its governance is mandated by rules encoded on a blockchain so it is tamper-proof.
-"|#dao
+"|https://docs.flare.network/tech/glossary/#dao
 "Dapp"|"
 A Decentralized Application is a computer program that makes use of blockchain technology and therefore the information it uses or stores has the same benefits (trustlessness, censorship resistance, geographical redundancy, etc). The dapp itself may or may not be hosted on a blockchain.
-"|#dapp
+"|https://docs.flare.network/tech/glossary/#dapp
 "Data Provider"|"
-Each of the multiple programs supplying external information to an [FTSO](#ftso) running on the Flare network, and getting rewarded for it. Token holders can [delegate](#delegate) their stake to a data provider and receive a share of the rewards.
-"|#data_provider
+Each of the multiple programs supplying external information to an <a href=""https://docs.flare.network/tech/glossary/#ftso"">FTSO</a> running on the Flare network, and getting rewarded for it. Token holders can <a href=""https://docs.flare.network/tech/glossary/#delegate"">delegate</a> their stake to a data provider and receive a share of the rewards.
+"|https://docs.flare.network/tech/glossary/#data_provider
 "DeFi"|"
 Decentralized Finance is a form of finance that does not rely on a central financial institution. DeFi is commonly based on blockchain technology.
-"|#defi
+"|https://docs.flare.network/tech/glossary/#defi
 "Delegate"|"
-To assign a duty to someone else, so they do it for you. On the Flare network, an address can delegate any fraction of the votes associated with the tokens it holds to another address, for the purpose of [FTSO](#ftso) weighting or governance participation. Note that no tokens are transferred.
-"|#delegate
+To assign a duty to someone else, so they do it for you. On the Flare network, an address can delegate any fraction of the votes associated with the tokens it holds to another address, for the purpose of <a href=""https://docs.flare.network/tech/glossary/#ftso"">FTSO</a> weighting or governance participation. Note that no tokens are transferred.
+"|https://docs.flare.network/tech/glossary/#delegate
 "ERC-20"|"
-The Ethereum Request for Comments 20, proposed in November 2015, is an Ethereum token standard that implements an API for tokens within smart contracts. It is a standard for fungible (exchangeable) tokens, which have a property that makes each token exactly the same (in type and value) as another token. For example, an ERC-20 token acts just like Ethereum's ETH token, meaning that 1 token is and will always be equal to all the other tokens. [Read more...](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
-"|#erc20
+The Ethereum Request for Comments 20, proposed in November 2015, is an Ethereum token standard that implements an API for tokens within smart contracts. It is a standard for fungible (exchangeable) tokens, which have a property that makes each token exactly the same (in type and value) as another token. For example, an ERC-20 token acts just like Ethereum's ETH token, meaning that 1 token is and will always be equal to all the other tokens. <a href=""https://ethereum.org/en/developers/docs/standards/tokens/erc-20/"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#erc20
 "EVM"|"
-The Ethereum Virtual Machine allows executing smart contracts on the Ethereum network, regardless of the kind of computer that executes it. Multiple blockchain networks, including Flare, support EVM contracts. [Read more...](https://ethereum.org/en/developers/docs/evm/)
-"|#evm
+The Ethereum Virtual Machine allows executing smart contracts on the Ethereum network, regardless of the kind of computer that executes it. Multiple blockchain networks, including Flare, support EVM contracts. <a href=""https://ethereum.org/en/developers/docs/evm/"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#evm
 "Executor"|"
-Users who do not want to claim rewards themselves can set an executor to claim rewards for them and send them directly to their users' accounts. [Read more...](./automatic-claiming.md)
-"|#executor
+Users who do not want to claim rewards themselves can set an executor to claim rewards for them and send them directly to their users' accounts. <a href=""https://docs.flare.network/tech/automatic-claiming.md"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#executor
 "Faucet"|"
-A [dapp](#dapp) that distributes test tokens to anyone that requests them. Used only on [test networks](#test_network), obviously. See the [Network Configuration](../dev/reference/network-config.md) page to learn about Flare's faucets.
-"|#faucet
+A <a href=""https://docs.flare.network/tech/glossary/#dapp"">dapp</a> that distributes test tokens to anyone that requests them. Used only on <a href=""https://docs.flare.network/tech/glossary/#test_network"">test networks</a>, obviously. See the <a href=""https://docs.flare.network/dev/reference/network-config/"">Network Configuration</a> page to learn about Flare's faucets.
+"|https://docs.flare.network/tech/glossary/#faucet
 "FBA"|"
-Federated Byzantine Agreement is a form of [Byzantine fault tolerance](#byzantine_fault_tolerance) where each node keeps its own list of trusted nodes. It does not require nodes to invest stake or computing power as [Proof of Stake](#proof_of_stake) or [Proof of Work](#proof_of_work) protocols do.
-"|#fba
+Federated Byzantine Agreement is a form of <a href=""https://docs.flare.network/tech/glossary/#byzantine_fault_tolerance"">Byzantine fault tolerance</a> where each node keeps its own list of trusted nodes. It does not require nodes to invest stake or computing power as <a href=""https://docs.flare.network/tech/glossary/#proof_of_stake"">Proof of Stake</a> or <a href=""https://docs.flare.network/tech/glossary/#proof_of_work"">Proof of Work</a> protocols do.
+"|https://docs.flare.network/tech/glossary/#fba
 "FCP"|"
-The Flare Consensus Protocol is an asynchronous, ordered and leaderless version of Federated Byzantine Agreement ([FBA](#fba)) consensus. The whitepaper is already available and it is currently in the process of being implemented. [Read more...](https://flare.network/whitepapers)
-"|#fcp
+The Flare Consensus Protocol is an asynchronous, ordered and leaderless version of Federated Byzantine Agreement (<a href=""https://docs.flare.network/tech/glossary/#fba"">FBA</a>) consensus. The whitepaper is already available and it is currently in the process of being implemented. <a href=""https://flare.network/whitepapers"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#fcp
 "Flare Token (FLR)"|"
-The native currency of the Flare's [main network](#main_network).
-"|#flare_token_(flr)
+The native currency of the Flare's <a href=""https://docs.flare.network/tech/glossary/#main_network"">main network</a>.
+"|https://docs.flare.network/tech/glossary/#flare_token_(flr)
 "FTSO"|"
-The Flare Time Series Oracles provide external information to the Flare network in a decentralized manner, by using multiple independent data providers that are rewarded for providing accurate information. [Read more...](./ftso.md)
-"|#ftso
+The Flare Time Series Oracles provide external information to the Flare network in a decentralized manner, by using multiple independent data providers that are rewarded for providing accurate information. <a href=""https://docs.flare.network/tech/ftso.md"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#ftso
 "Governance"|"
 Mechanism to propose, vote and implement changes on a blockchain protocol. On Flare, anybody can propose updates and token holders vote to accept them.
-"|#governance
+"|https://docs.flare.network/tech/glossary/#governance
 "Know Your Customer"|"
 The process an entity completes to verify the identities of its users to comply with global requirements.
-"|#kyc
+"|https://docs.flare.network/tech/glossary/#kyc
 "Layer 1"|"
 An L1 is a blockchain in the classical sense, in that it comprises a network of nodes that exchange information to guarantee the integrity of a shared ledger and offer functionality like token exchange and programmability. Compare it to an L2, which is built on top of an existing L1.
-"|#layer1
+"|https://docs.flare.network/tech/glossary/#layer1
 "Layer 2"|"
 An L2 is a blockchain built on top of an existing L1 making use of its programmability. L2 chains add extra functionality to the L1, like scalability.
-"|#layer2
+"|https://docs.flare.network/tech/glossary/#layer2
 "Ledger"|"
-Historically, a book where financial transactions are recorded. In [blockchain](#blockchain) technology, a ledger can contain any kind of information, which has multiple copies distributed among several computers, kept in sync by a [consensus](#consensus) algorithm.
-"|#ledger
+Historically, a book where financial transactions are recorded. In <a href=""https://docs.flare.network/tech/glossary/#blockchain"">blockchain</a> technology, a ledger can contain any kind of information, which has multiple copies distributed among several computers, kept in sync by a <a href=""https://docs.flare.network/tech/glossary/#consensus"">consensus</a> algorithm.
+"|https://docs.flare.network/tech/glossary/#ledger
 "Light Client Relay"|"
-A simplified communication mechanism built for speed that only queries the header data of any transaction and therefore lacks the security that comes from querying a full node with full history (e.g. [SPV](https://en.wikipedia.org/wiki/Bitcoin_network#Payment_verification)).
-"|#light_client_relay
+A simplified communication mechanism built for speed that only queries the header data of any transaction and therefore lacks the security that comes from querying a full node with full history (e.g. <a href=""https://en.wikipedia.org/wiki/Bitcoin_network#Payment_verification"">SPV</a>).
+"|https://docs.flare.network/tech/glossary/#light_client_relay
 "Liquidity Pool"|"
-A collection of funds locked in a [smart contract](#smart_contract) for the purpose of facilitating trading, lending and other functionality in a decentralized manner.
-"|#liquidity_pool
+A collection of funds locked in a <a href=""https://docs.flare.network/tech/glossary/#smart_contract"">smart contract</a> for the purpose of facilitating trading, lending and other functionality in a decentralized manner.
+"|https://docs.flare.network/tech/glossary/#liquidity_pool
 "Main Network (MAINNET)"|"
-The computer network that supports a [blockchain](#blockchain) in its production stage, i.e., the real thing (instead of a [Canary](#canary_network) or [Test](#test_network) network).
-"|#main_network
+The computer network that supports a <a href=""https://docs.flare.network/tech/glossary/#blockchain"">blockchain</a> in its production stage, i.e., the real thing (instead of a <a href=""https://docs.flare.network/tech/glossary/#canary_network"">Canary</a> or <a href=""https://docs.flare.network/tech/glossary/#test_network"">Test</a> network).
+"|https://docs.flare.network/tech/glossary/#main_network
 "Metaverse"|"
 An old concept, at times called Virtual Reality or Cyberspace, that translates human interaction to virtual (i.e. non-physical) worlds. Currently in vogue again because blockchain technology promises to link the physical and the virtual worlds and thus bring a degree of reality to the latter.
-"|#metaverse
+"|https://docs.flare.network/tech/glossary/#metaverse
 "Multi-chain (or intra-ecosystem) interoperability"|"
-Communication between two or more technologically compatible blockchains that exist within the same ecosystem and share systems, protocols and code (e.g. [Polkadot Parachains](https://polkadot.network/parachains/), [Cosmos Tendermint](https://tendermint.com/) chains or [Ethereum](https://ethereum.org/en/) layer 2 protocols).
-"|#multi_chain
+Communication between two or more technologically compatible blockchains that exist within the same ecosystem and share systems, protocols and code (e.g. <a href=""https://polkadot.network/parachains/"">Polkadot Parachains</a>, <a href=""https://tendermint.com/"">Cosmos Tendermint</a> chains or <a href=""https://ethereum.org/en/"">Ethereum</a> layer 2 protocols).
+"|https://docs.flare.network/tech/glossary/#multi_chain
 "NFT"|"
-Non-Fungible Tokens are digital representations of assets which are unique and therefore non-mergeable (non-fungible), made impossible to copy by blockchain technology. Common use cases are certificates of authenticity or ownership, or limited edition collectibles. Most NFT tokens are built on the [Ethereum network](https://ethereum.org/en/) using standards [ERC-721](https://eips.ethereum.org/EIPS/eip-721) and [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155).
-"|#nft
+Non-Fungible Tokens are digital representations of assets which are unique and therefore non-mergeable (non-fungible), made impossible to copy by blockchain technology. Common use cases are certificates of authenticity or ownership, or limited edition collectibles. Most NFT tokens are built on the <a href=""https://ethereum.org/en/"">Ethereum network</a> using standards <a href=""https://eips.ethereum.org/EIPS/eip-721"">ERC-721</a> and <a href=""https://eips.ethereum.org/EIPS/eip-1155"">ERC-1155</a>.
+"|https://docs.flare.network/tech/glossary/#nft
 "Oracle"|"
-A mechanism to provide external information to a blockchain, so that it can be used by [smart contracts](#smart_contract), for example. Flare oracles are called [FTSO](#ftso).
-"|#oracle
+A mechanism to provide external information to a blockchain, so that it can be used by <a href=""https://docs.flare.network/tech/glossary/#smart_contract"">smart contracts</a>, for example. Flare oracles are called <a href=""https://docs.flare.network/tech/glossary/#ftso"">FTSO</a>.
+"|https://docs.flare.network/tech/glossary/#oracle
 "Proof of Stake"|"
-A kind of [Sybil resistance](#sybil_resistance) based on staking assets to participate in consensus. The rationale is that a participant investing enough assets will not be interested in attacking the network that supports such assets. Moreover, if malicious behavior is detected part of the assets can be taken as punishment.
-"|#proof_of_stake
+A kind of <a href=""https://docs.flare.network/tech/glossary/#sybil_resistance"">Sybil resistance</a> based on staking assets to participate in consensus. The rationale is that a participant investing enough assets will not be interested in attacking the network that supports such assets. Moreover, if malicious behavior is detected part of the assets can be taken as punishment.
+"|https://docs.flare.network/tech/glossary/#proof_of_stake
 "Proof of Work"|"
-A kind of [Sybil resistance](#sybil_resistance) based on spending computer power to participate in consensus. The rationale is that attacking the network becomes prohibitively expensive in terms of computer power.
-"|#proof_of_work
+A kind of <a href=""https://docs.flare.network/tech/glossary/#sybil_resistance"">Sybil resistance</a> based on spending computer power to participate in consensus. The rationale is that attacking the network becomes prohibitively expensive in terms of computer power.
+"|https://docs.flare.network/tech/glossary/#proof_of_work
 "Pruning"|"
-A [blockchain](#blockchain) database reduction technique, which keeps the state of all addresses (like their balance) and the [transactions](#transaction) that led to that state, but removes any old transaction that does not impact the current state anymore.
-"|#pruning
+A <a href=""https://docs.flare.network/tech/glossary/#blockchain"">blockchain</a> database reduction technique, which keeps the state of all addresses (like their balance) and the <a href=""https://docs.flare.network/tech/glossary/#transaction"">transactions</a> that led to that state, but removes any old transaction that does not impact the current state anymore.
+"|https://docs.flare.network/tech/glossary/#pruning
 "Quantum Resistance"|"
 The ability of a cryptographic algorithm (and therefore of a blockchain) to resist an attack from a theoretical quantum computer.
-"|#quantum_resistance
+"|https://docs.flare.network/tech/glossary/#quantum_resistance
 "Quorum"|"
-Set of participants on a [consensus](#consensus) algorithm that must agree on a result for the whole network to accept that result. On a blockchain, once consensus is reached about a [block](#block), it is added to the [ledger](#ledger) and the next block is processed.
-"|#quorum
+Set of participants on a <a href=""https://docs.flare.network/tech/glossary/#consensus"">consensus</a> algorithm that must agree on a result for the whole network to accept that result. On a blockchain, once consensus is reached about a <a href=""https://docs.flare.network/tech/glossary/#block"">block</a>, it is added to the <a href=""https://docs.flare.network/tech/glossary/#ledger"">ledger</a> and the next block is processed.
+"|https://docs.flare.network/tech/glossary/#quorum
 "Quorum Slice"|"
-In [FBA](#fba) consensus each node has multiple lists of other nodes which it voluntarily decides to trust, forming its quorum slices. All nodes in a quorum slice agreeing on a result are enough to convince the node of that result. If the quorum slices are correctly built, global quorum emerges from these local quorum slices.
-"|#quorum_slice
+In <a href=""https://docs.flare.network/tech/glossary/#fba"">FBA</a> consensus each node has multiple lists of other nodes which it voluntarily decides to trust, forming its quorum slices. All nodes in a quorum slice agreeing on a result are enough to convince the node of that result. If the quorum slices are correctly built, global quorum emerges from these local quorum slices.
+"|https://docs.flare.network/tech/glossary/#quorum_slice
 "RPC"|"
-Remote Procedure Call is a protocol that allows a program executing on a computer to request a service from another program, typically running on a different computer. [Flare offers some public and private nodes with RPC capabilities](../apis/index.md#access-nodes).
-"|#rpc
+Remote Procedure Call is a protocol that allows a program executing on a computer to request a service from another program, typically running on a different computer. <a href=""https://docs.flare.network/apis/#access-nodes"">Flare offers some public and private nodes with RPC capabilities</a>.
+"|https://docs.flare.network/tech/glossary/#rpc
 "Smart Contract"|"
-Computer program running on a blockchain, typically one based on the [EVM](#evm). The blockchain’s immutability ensures that the contract is not tampered with, and running it on several machines bound together by a consensus algorithm ensures faithful execution. Smart contracts are said to be self-enforcing.
-"|#smart_contract
+Computer program running on a blockchain, typically one based on the <a href=""https://docs.flare.network/tech/glossary/#evm"">EVM</a>. The blockchain’s immutability ensures that the contract is not tampered with, and running it on several machines bound together by a consensus algorithm ensures faithful execution. Smart contracts are said to be self-enforcing.
+"|https://docs.flare.network/tech/glossary/#smart_contract
 "Songbird"|"
-Flare's [canary network](#canary_network), launched in September 2021.
-"|#songbird
+Flare's <a href=""https://docs.flare.network/tech/glossary/#canary_network"">canary network</a>, launched in September 2021.
+"|https://docs.flare.network/tech/glossary/#songbird
 "State Connector"|"
-Piece of the Flare network that keeps track of the state of other networks, facilitating the implementation of advanced mechanisms like the FAssets. The State Connector uses several independent Attestation Providers that are rewarded for providing correct information. [Read more...](state-connector.md)
-"|#state_connector
+Piece of the Flare network that keeps track of the state of other networks, facilitating the implementation of advanced mechanisms like the FAssets. The State Connector uses several independent Attestation Providers that are rewarded for providing correct information. <a href=""https://docs.flare.network/tech/state-connector/"">Read more...</a>
+"|https://docs.flare.network/tech/glossary/#state_connector
 "Sybil Resistance"|"
-The ability of a distributed system to overcome a Sybil attack, in which a malicious actor creates multiple identities to gain voting or mining power. Resistance is typically gained by making voting or mining too costly for the attack to be worth it (as in [Proof of Work](#proof_of_work) or [Proof of Stake](#proof_of_stake)) or by requiring new entities to be approved by existing actors (as in [FBA](#fba)).
-"|#sybil_resistance
+The ability of a distributed system to overcome a Sybil attack, in which a malicious actor creates multiple identities to gain voting or mining power. Resistance is typically gained by making voting or mining too costly for the attack to be worth it (as in <a href=""https://docs.flare.network/tech/glossary/#proof_of_work"">Proof of Work</a> or <a href=""https://docs.flare.network/tech/glossary/#proof_of_stake"">Proof of Stake</a>) or by requiring new entities to be approved by existing actors (as in <a href=""https://docs.flare.network/tech/glossary/#fba"">FBA</a>).
+"|https://docs.flare.network/tech/glossary/#sybil_resistance
 "Test Network (TESTNET)"|"
-The computer network that supports a [blockchain](#blockchain) in its development stage. It is intended for testing purposes and should not store valuable assets, as its contents might be deleted (purposely or by accident) at any time. Among other facilities, testnets typically provide [faucets](#faucet). Compare to a [Canary](#canary_network) or a [Main](#main_network) network. Flare's testnets are [Coston](#coston) for Songbird and [Coston2](#coston) for Flare.
-"|#test_network
+The computer network that supports a <a href=""https://docs.flare.network/tech/glossary/#blockchain"">blockchain</a> in its development stage. It is intended for testing purposes and should not store valuable assets, as its contents might be deleted (purposely or by accident) at any time. Among other facilities, testnets typically provide <a href=""https://docs.flare.network/tech/glossary/#faucet"">faucets</a>. Compare to a <a href=""https://docs.flare.network/tech/glossary/#canary_network"">Canary</a> or a <a href=""https://docs.flare.network/tech/glossary/#main_network"">Main</a> network. Flare's testnets are <a href=""https://docs.flare.network/tech/glossary/#coston"">Coston</a> for Songbird and <a href=""https://docs.flare.network/tech/glossary/#coston"">Coston2</a> for Flare.
+"|https://docs.flare.network/tech/glossary/#test_network
 "Transaction"|"
 A request to add information to the blockchain, which is then analyzed by the network and accepted when consensus is reached about its validity. It can be a movement of funds between two accounts, or the execution of a contract, for example.
-"|#transaction
+"|https://docs.flare.network/tech/glossary/#transaction
 "Transaction Fee"|"
 Amount of cryptocurrency that must be paid by anybody submitting a transaction for inclusion on a blockchain. These fees reward block producers for their work processing transactions, and typically vary depending on network congestion.
-"|#transaction_fee
+"|https://docs.flare.network/tech/glossary/#transaction_fee
 "Token"|"
-A digital representation of an asset. Fungible tokens are indistinguishable from one another so they can be merged together (e.g. a cryptocurrency). Non-fungible tokens ([NFT](#nft)) are unique and therefore cannot be merged.
-"|#token
+A digital representation of an asset. Fungible tokens are indistinguishable from one another so they can be merged together (e.g. a cryptocurrency). Non-fungible tokens (<a href=""https://docs.flare.network/tech/glossary/#nft"">NFT</a>) are unique and therefore cannot be merged.
+"|https://docs.flare.network/tech/glossary/#token
 "Turing-completeness"|"
-The ability of a machine to solve any computational problem, no matter how complex, given the necessary steps and enough time and memory. This is a mandatory feature of any general-purpose processor like a CPU or the [EVM](#evm).
-"|#turing-completeness
+The ability of a machine to solve any computational problem, no matter how complex, given the necessary steps and enough time and memory. This is a mandatory feature of any general-purpose processor like a CPU or the <a href=""https://docs.flare.network/tech/glossary/#evm"">EVM</a>.
+"|https://docs.flare.network/tech/glossary/#turing-completeness
 "Validator"|"
-A validator node is a machine connected to a blockchain network that verifies transactions and emits a vote. When there is a [quorum](#quorum) among all validators regarding a given block of transactions, they are accepted into the blockchain.
-"|#validator
+A validator node is a machine connected to a blockchain network that verifies transactions and emits a vote. When there is a <a href=""https://docs.flare.network/tech/glossary/#quorum"">quorum</a> among all validators regarding a given block of transactions, they are accepted into the blockchain.
+"|https://docs.flare.network/tech/glossary/#validator
 "Voting Power"|"
-Weight proportional to the tokens held by an address plus the tokens [delegated](#delegate) to it. This weight is used during [FTSO](#ftso) operation and governance votes, for example.
-"|#voting-power
+Weight proportional to the tokens held by an address plus the tokens <a href=""https://docs.flare.network/tech/glossary/#delegate"">delegated</a> to it. This weight is used during <a href=""https://docs.flare.network/tech/glossary/#ftso"">FTSO</a> operation and governance votes, for example.
+"|https://docs.flare.network/tech/glossary/#voting-power
 "Wen flare"|"
 The war cry of all the impatient that would like to see the Flare network launch before it is fully tested. Pay no heed to them.
-"|#wen_flare
+"|https://docs.flare.network/tech/glossary/#wen_flare
 "Zero address"|"
 A special address represented as `0x0000000000000000000000000000`. Also known as the null address, it is typically used as a return value from functions to indicate an error condition.
-"|#zero-address
+"|https://docs.flare.network/tech/glossary/#zero-address
