@@ -33,6 +33,7 @@ Unless otherwise specified, everything in this repository is covered by the foll
 This work was based on the ***Flare Glossary*** by [Flare](https://docs.flare.network/tech/glossary/). Content is available under an [MIT license](https://github.com/flare-foundation/docs/blob/main/LICENSE.md).
 
 To see this work in full go to https://docs.flare.network/tech/glossary/
+
 ----
 
 <b>
