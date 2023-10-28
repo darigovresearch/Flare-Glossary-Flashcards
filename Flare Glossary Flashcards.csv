@@ -1,4 +1,19 @@
-"<a href=""https://docs.flare.network/tech/glossary/#attestation"">Attestation</a> (Flare Glossary)"|"
+Introduction (Flare Glossary)|"
+<p>This deck has taken definitions outlined in <a href=""https://docs.flare.network/tech/glossary/"">Flare's Glossary</a> and put them into a form which can be easily learnt/revised using <a href=""https://apps.ankiweb.net/"">Anki</a> a cross platform app specifically designed for long term knowledge retention.</p>
+<h2>Notes</h2>
+<p>Please note the modifications which have been made &amp; where you can find updates.</p>
+<ol align=""left"">
+<li>The front of every card has ""(Flare Glossary)"" appended to the end so that if you have any other words in your collection, the Flare Glossary definition will still be added when importing it.</li>
+<li>The original relative URLs have been made into full URLs so they are clickable within Anki.</li>
+<li>Any updates, translations or corrections to the deck will be available at <a href=""https://github.com/darigovresearch/Flare-Glossary-Flashcards"">https://github.com/darigovresearch/Flare-Glossary-Flashcards</a> so do return periodically to check if you have the latest version.</li>
+</ol>
+<p>Feel free to share the deck and give the repository a star so more people are likely to see this work and can get the most out of it.</p>
+<h2>License</h2>
+<p>Unless otherwise specified, everything in this deck is covered by the following licence:</p>
+<p>This work was based on the <em><strong>Flare Glossary</strong></em> by <a href=""https://docs.flare.network/tech/glossary/"">Flare</a>. Content is available under an <a href=""https://github.com/flare-foundation/docs/blob/main/LICENSE.md"">MIT license</a>.</p>
+<p>To see this work in full go to <a href=""https://docs.flare.network/tech/glossary/"">https://docs.flare.network/tech/glossary/</a></p>
+"
+<a href=""https://docs.flare.network/tech/glossary/#attestation"">Attestation</a> (Flare Glossary)"|"
 A data proof provided to the <a href=""https://docs.flare.network/tech/glossary/#state_connector"">State Connector</a> by a decentralized set of Attestation Providers that confirms the validity or otherwise of any request.
 "
 "<a href=""https://docs.flare.network/tech/glossary/#autoclaiming"">Autoclaiming</a> (Flare Glossary)"|"
