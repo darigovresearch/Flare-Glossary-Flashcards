@@ -13,7 +13,7 @@ Introduction (Flare Glossary)|"
 <p>This work was based on the <em><strong>Flare Glossary</strong></em> by <a href=""https://docs.flare.network/tech/glossary/"">Flare</a>. Content is available under an <a href=""https://github.com/flare-foundation/docs/blob/main/LICENSE.md"">MIT license</a>.</p>
 <p>To see this work in full go to <a href=""https://docs.flare.network/tech/glossary/"">https://docs.flare.network/tech/glossary/</a></p>
 "
-<a href=""https://docs.flare.network/tech/glossary/#attestation"">Attestation</a> (Flare Glossary)"|"
+"<a href=""https://docs.flare.network/tech/glossary/#attestation"">Attestation</a> (Flare Glossary)"|"
 A data proof provided to the <a href=""https://docs.flare.network/tech/glossary/#state_connector"">State Connector</a> by a decentralized set of Attestation Providers that confirms the validity or otherwise of any request.
 "
 "<a href=""https://docs.flare.network/tech/glossary/#autoclaiming"">Autoclaiming</a> (Flare Glossary)"|"
